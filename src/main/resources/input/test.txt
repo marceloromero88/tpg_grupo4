@@ -1,1 +1,86 @@
-c=d*(e-21)/4
+
+*- INICIALIZACION -*
+INIT {
+    a1,a2 : INT
+    pepe,pepo : FLOAT
+}
+
+
+
+*- VARIABLES VARIAS -*
+CASO1 = "@sdADaSjfla%dfg"
+CASO2 = "asldk  fh sjf"
+A = 858.52
+B = pepe
+C= "JUJU"
+D = 99999.99
+E = 99.
+F = .9999
+
+
+*- IF CON ELSE Y COMANDOS write  -*
+IF ( a > b AND c > b)
+{
+
+WRITE ("DENTRO DE IF")
+ 
+}
+
+ELSE
+
+{
+
+WRITE ("DENTRO DEL ELSE")
+
+
+}
+
+
+*- IF CON ESTACONTENIDO  -*
+IF (ESTACONTENIDO("hola","lolo") AND ESTACONTENIDO("laLA","lolA") )
+
+{
+
+WRITE ("DENTRO DEL ELSE")
+
+
+}
+
+
+*- Esto es un comentario -*
+
+*- WRITE Y READ  -*
+WRITE ("HOLA")
+READ (VARIABLE)
+
+
+*- IF CON WHILE E IF ANIDADOS  -*
+WHILE (a > b OR b != c )
+{
+
+a = a + 9999
+ 
+IF ( a > b AND c > b)
+{
+
+WRITE ("DENTRO DEL WHILE")
+ 
+}
+
+
+}
+
+IF ( NOT z > C )
+{
+
+
+WHILE (a > b AND b != c )
+{
+ WRITE ("DENTRO DEL IF")
+}
+}
+
+
+AA = 89 + LOLO
+
+WRITE ("FIN")
